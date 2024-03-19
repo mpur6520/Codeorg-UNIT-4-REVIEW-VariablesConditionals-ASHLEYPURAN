@@ -1,0 +1,290 @@
+html, body{
+  text-align: center;
+  font-family: monospace;
+  background: url(purple.jpeg) no-repeat center fixed;
+  background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+img{
+  width: 20px;
+}
+
+.heading{
+  color: #01277e;
+  background: center fixed rgba(1,39,126,0.1);
+  padding: 20px 20px;
+  width: 600px;
+  margin: auto;
+}
+
+h2{
+  color: #fff0f6;
+}
+
+
+.header{
+  overflow: hidden;
+  background: center fixed rgba(1,39,126,0.8);
+  padding: 10px 10px;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.header a{
+  color: #f9ebf4;
+  padding: 50px;
+  text-align: center;
+}
+
+.appPhoto{
+  width: 300px;
+}
+
+.container{
+  color: #fff;
+  background: center fixed rgba(1,39,126,0.8);
+  padding: 20px 40px;
+  margin: auto;
+  width: 800px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+.wave{
+  background: center fixed rgba(255,240,248,0.1);
+  overflow: hidden;
+  display: block;
+  margin: 10px;
+  height: 20px;
+  position: relative;
+  transition: height 2s;
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+#L1:hover{
+  height: 225px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L2:hover{
+  height: 200px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L3:hover{
+  height: 410px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L4:hover{
+  height: 600px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L5:hover{
+  height: 320px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L6:hover{
+  height: 275px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L7:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L8:hover{
+  height: 625px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L9:hover{
+  height: 190px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L10:hover{
+  height: 300px;
+  top: 1px;
+  z-index: 1;
+}
+
+#L11:hover{
+  height: 635px;
+  top: 1px;
+  z-index: 1;
+}
+
+.textContainer{
+  color: #fffafc;
+  background: fixed rgba(1,39,126,0.8);
+  padding: 20px 40px;
+  width: 115px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 1px #fff;
+  float: right;
+  margin: -2.5% 55%;
+  position: absolute;
+  z-index: 2;
+}
+
+.appContainer{
+  color: #fff;
+  background: center fixed rgba(1,39,126,0.8);
+  width: 400px;
+  height: 670px;
+  margin: -2.5% 20%;
+  box-shadow: 1px 1px 1px 1px #fff;
+  float: left;
+  position: absolute;
+}
+
+.codePhoto{
+  width: 600px;
+  color: #fff;
+  background: fixed rgba(1,39,126,0.8);
+  box-shadow: 1px 1px 1px 1px #fff;
+  float: right;
+  padding: 40px 40px;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu{
+  position: absolute;
+  top: 26px;
+  color: #f9ebf4;
+  left: 775px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.menu a{
+  color: #f9ebf4;
+  background-color: rgba(1,39,126);
+  padding: 1px;
+  display: none;
+  font-size: 13px;
+}
+
+.menu:hover a{
+  display: block;
+}
+
+.menu a:hover{
+  background-color: #f9ebf4;
+  color: rgba(1,39,126);
+}
+
+.heart{
+  width: 50px;
+  background: fixed rgba(1,39,126,0.8);
+  box-shadow: 1px 1px 1px 1px #fff;
+  float: right;
+  padding: 10px 10px;
+  position: absolute;
+  z-index: 3;
+}
+
+.smileyFace{
+  width: 60px;
+  background: fixed rgba(1,39,126,0.8);
+  box-shadow: 1px 1px 1px 1px #fff;
+  float: right;
+  padding: 12px 5px;
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+}
+
+#variablesHeart{
+  float: left;
+  position: absolute;
+  top: 65%;
+  left: 39.5%;
+}
+
+#variablesSmileyFace{
+  float: left;
+  position: absolute;
+  top: 30%;
+  left: 19.5%;
+}
+
+#functionsHeart{
+  float: left;
+  position: absolute;
+  top: 30%;
+  left: 19.5%;
+}
+
+#functionsSmileyFace{
+  float: left;
+  position: absolute;
+  width: 60px;
+  top: 65%;
+  left: 39.5%;
+}
+
+#conditionalsHeart{
+  float: left;
+  position: absolute;
+  top: 65%;
+  left: 39.5%;
+}
+
+#conditionalsSmileyFace{
+  float: left;
+  position: absolute;
+  top: 30%;
+  left: 19.5%;
+}
+
+#homeHeart{
+  float: left;
+  position: absolute;
+  top: 65%;
+  left: 28%;
+}
+
+#homeSmileyFace{
+  float: left;
+  position: absolute;
+  top: 40%;
+  right: 28%;
+}
+
+#colR{
+  width: 65em;
+  position: absolute;
+  right: 100px;
+  top: 350px;
+  padding: 10px 10px;
+  background: fixed rgba(1,39,126, 0.9);
+  box-shadow: 1px 1px 1px 1px #fff;
+}
+
+#colL{
+  width: 50em;
+  position: absolute;
+  left: 100px;
+  top: 350px;
+  padding: 10px 10px;
+  background: fixed rgba(1,39,126, 0.9);
+  box-shadow: 1px 1px 1px 1px #fff;
+}
